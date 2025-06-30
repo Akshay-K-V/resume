@@ -1,0 +1,21 @@
+body {
+  background: lch(98.57% 0.62 256.22);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.weather-card {
+  padding: 20px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 300px;
+}
+
+.temp {
+  font-size: 3em;
+  font-weight: bold;
+}
